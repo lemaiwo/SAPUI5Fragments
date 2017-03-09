@@ -12,7 +12,7 @@ sap.ui.define(["be/wl/controller/BaseController",
 				title: data.title
 			});
 			this.fragment.setModel(dialogmodel, "ui");
-			//read label control from dialog in fragmetn
+			//read label control from dialog in fragment
 			var label = this.getFragmentControlById(this.parent,"label1");
 		},
 		onClose: function() {
