@@ -1,0 +1,11 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+	<Dialog title="{ui>/title}" showHeader="true">
+		<content>
+			<Label id="label1" text="Demo"></Label>
+		</content>
+		<buttons>
+			<!--<Button icon="sap-icon://add" press="onAddApprover"></Button>-->
+			<Button icon="sap-icon://decline" press="onClose"></Button>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>
